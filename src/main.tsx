@@ -16,7 +16,6 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route index element={<Dashboard />} />
       <Route path="additem" element={<AddItem />} />
-      <Route path="*" element={<h2>404 not found</h2>} />
     </Route>
   )
 );

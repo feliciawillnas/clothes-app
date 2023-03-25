@@ -1,11 +1,11 @@
 import { CSSProperties } from "react";
 import { Outlet } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div style={rootStyle}>
-      <Sidebar />
+      <Header />
       <main style={mainStyle}>
         <Outlet />
       </main>
