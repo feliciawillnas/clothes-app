@@ -10,13 +10,11 @@ import App from "./App";
 import "./index.css";
 import AddItem from "./pages/AddItem";
 import Dashboard from "./pages/Dashboard";
-import Reports from "./pages/Reports";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Dashboard />} />
-      <Route path="reports" element={<Reports />} />
       <Route path="additem" element={<AddItem />} />
       <Route path="*" element={<h2>404 not found</h2>} />
     </Route>
