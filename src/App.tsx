@@ -1,6 +1,6 @@
-import { CSSProperties } from 'react';
-import { Outlet } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
+import { CSSProperties } from "react";
+import { Outlet } from "react-router-dom";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
@@ -14,13 +14,13 @@ function App() {
 }
 
 const rootStyle: CSSProperties = {
-  display: 'flex',
-  minHeight: '100%',
+  display: "flex",
+  minHeight: "100%",
 };
 
 const mainStyle: CSSProperties = {
   flex: 1,
-  padding: '1rem',
+  padding: "1rem",
 };
 
 export default App;

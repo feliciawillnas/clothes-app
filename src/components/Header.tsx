@@ -1,4 +1,4 @@
-import { CSSProperties } from 'react';
+import { CSSProperties } from "react";
 
 function Header() {
   return (
@@ -9,8 +9,8 @@ function Header() {
 }
 
 const rootStyle: CSSProperties = {
-  background: 'lightblue',
-  padding: '0.2rem 1rem',
+  background: "lightblue",
+  padding: "0.2rem 1rem",
 };
 
 export default Header;
