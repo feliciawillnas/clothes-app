@@ -6,9 +6,7 @@ function App() {
   return (
     <div style={rootStyle}>
       <Header />
-      <main style={mainStyle}>
-        <Outlet />
-      </main>
+      <Outlet />
     </div>
   );
 }

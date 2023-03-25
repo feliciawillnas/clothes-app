@@ -5,7 +5,7 @@ import styled from "styled-components";
 function Header() {
   return (
     <StyledHeader>
-      <h1>Fakebooks</h1>
+      <h1></h1>
       <nav>
         <ul>
           <li>
@@ -25,10 +25,12 @@ function Header() {
 }
 
 const StyledHeader = styled.div`
-  background-color: #fff8ea;
   color: red;
+  background-color: blue;
+  width: 100%;
 `;
 
+// LINK STYLES
 const linkStyle: ReactRouterCSS = (props) => ({
   display: "block",
   borderRadius: "0.3rem",
