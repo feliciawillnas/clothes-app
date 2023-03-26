@@ -52,6 +52,7 @@ const StyledAddLink = styled.div`
   font-size: 30px;
 `;
 
+// LINK STYLES
 const linkStyle: ReactRouterCSS = (props) => ({
   display: "block",
   borderRadius: "0.3rem",
