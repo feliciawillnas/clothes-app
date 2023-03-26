@@ -10,12 +10,14 @@ import App from "./App";
 import "./index.css";
 import AddItem from "./pages/AddItem";
 import Dashboard from "./pages/Dashboard";
+import WishList from "./pages/WishList";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<Dashboard />} />
       <Route path="additem" element={<AddItem />} />
+      <Route path="wishlist" element={<WishList />} />
     </Route>
   )
 );

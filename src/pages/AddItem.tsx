@@ -1,7 +1,7 @@
 function AddItem() {
   return (
     <div>
-      <h2>Add item 2</h2>
+      <h2>add item page</h2>
     </div>
   );
 }

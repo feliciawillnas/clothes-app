@@ -1,32 +1,55 @@
 import { CSSProperties } from "react";
+import { FiPlus, FiStar } from "react-icons/fi";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 function Header() {
   return (
     <StyledHeader>
-      <h1>Fakebooks</h1>
-      <nav>
-        <ul>
+      <StyledWrapper>
+        <li></li>
+        <StyledHomeLink>
           <li>
-            <NavLink to="/" style={linkStyle}>
-              Home
+            <NavLink to="/">Home</NavLink>
+          </li>
+        </StyledHomeLink>
+        <StyledAddLink>
+          <li>
+            <NavLink to="/wishlist">
+              <FiStar />
             </NavLink>
           </li>
           <li>
-            <NavLink to="/additem" style={linkStyle}>
-              add item
+            <NavLink to="/additem">
+              <FiPlus />
             </NavLink>
           </li>
-        </ul>
-      </nav>
+        </StyledAddLink>
+      </StyledWrapper>
     </StyledHeader>
   );
 }
 
 const StyledHeader = styled.div`
-  background-color: #fff8ea;
   color: red;
+  width: 100%;
+  height: 200px;
+`;
+
+const StyledWrapper = styled.div`
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem;
+  align-items: center;
+`;
+
+const StyledHomeLink = styled.div`
+  font-size: 19px;
+`;
+
+const StyledAddLink = styled.div`
+  font-size: 30px;
 `;
 
 const linkStyle: ReactRouterCSS = (props) => ({

@@ -6,21 +6,13 @@ function App() {
   return (
     <div style={rootStyle}>
       <Header />
-      <main style={mainStyle}>
-        <Outlet />
-      </main>
+      <Outlet />
     </div>
   );
 }
 
-const rootStyle: CSSProperties = {
-  display: "flex",
-  minHeight: "100%",
-};
+const rootStyle: CSSProperties = {};
 
-const mainStyle: CSSProperties = {
-  flex: 1,
-  padding: "1rem",
-};
+const mainStyle: CSSProperties = {};
 
 export default App;
