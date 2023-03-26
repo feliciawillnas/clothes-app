@@ -18,8 +18,8 @@ function Dashboard() {
 }
 
 const StyledMain = styled.div`
-  width: 500px;
-  background-color: blue;
+  width: 80%;
+  padding: 2rem;
   height: fit-content;
   margin: auto;
   border: 1px solid black;

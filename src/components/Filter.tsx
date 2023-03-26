@@ -11,11 +11,11 @@ export function Filter() {
         </ul>
         <ul>
           <li>skirts</li>
-          <li></li>
+          <li>shoes</li>
         </ul>
         <ul>
-          <li>hej</li>
-          <li>hej</li>
+          <li>accessories</li>
+          <li>housewares</li>
         </ul>
       </StyledAllLinks>
     </StyledWrapper>
@@ -23,15 +23,13 @@ export function Filter() {
 }
 
 const StyledWrapper = styled.div`
-  background-color: #fff8ea;
-  color: red;
+  color: black;
   display: flex;
   justify-content: space-between;
   padding: 3px;
 `;
 
 const StyledLogo = styled.div`
-  background-color: #fff8ea;
   color: red;
 `;
 
